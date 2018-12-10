@@ -12,7 +12,7 @@
         {% for href, title in [
           ['/blog', 'Linux commands'],
           ['/projects', 'Git commands'],
-          ['/about', 'About']
+          ['/about', 'IDE commands']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
             %}><a href="{{ href|url }}">{{ title }}</a></li>
